@@ -58,13 +58,11 @@ const Banner = () => {
             <h1 className="home-heading7">
               The Solution to your every placement doubt
             </h1>
-            <p className="home-caption6">
+            <text className="home-caption6">
               Placify is your gateway to discover career opportunities and gain insights from senior students at your college.
-            </p>
+            </text>
           </div>
         </div>
-
-
         <div>
           <img
             alt="image"

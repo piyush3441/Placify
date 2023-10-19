@@ -1,6 +1,6 @@
 import React from "react";
-import instructor1 from "../../assets/img/doctor-1-300w.png"
-import instructor2 from "../../assets/img/doctor-2-300w.png"
+import instructor1 from "../../assets/img/shounaksir.jpeg"
+import instructor2 from "../../assets/img/anilsir.jpeg"
 
 import "./instructor.css";
 

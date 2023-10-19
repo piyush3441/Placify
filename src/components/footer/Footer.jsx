@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import "./footer.css";
 
 const Footer = () => {
@@ -11,8 +9,8 @@ const Footer = () => {
           <div className="footer-social col-12 py-3">
             <div className="row justify-content-center box rounded-0">
 
-              <div className="col-md-6">
-                <div className="contact-form">
+              <div className="col">
+                <div>
                   <h2 className="text-center fs-4 fw-bold mb-5">Contact Us</h2>
                   <form>
                     <div className="form-group mb-3">
@@ -42,8 +40,8 @@ const Footer = () => {
                         className="form-control"
                       ></textarea>
                     </div>
-                    <button type="submit" className="theme-btn w-100">
-                      Send Message
+                    <button type="submit" id="send-button">
+                      Send
                     </button>
                   </form>
                 </div>
@@ -51,6 +49,7 @@ const Footer = () => {
             </div>
           </div>
           <hr/>
+          
           <div className="footer-contact col-12 py-3 ">
             <div className="row justify-content-between ">
               <div className="col-md-4 d-flex">
@@ -73,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="col-md-4 d-flex">
                 <div className="contact-icon pe-3">
-                  <i className="fa fa-location-dot"  aria-hidden="true"></i>
+                  <i className="fa fa-marker"  aria-hidden="true"></i>
                 </div>
                 <div className="contact-text">
                   <h6>JKLU, Mahapura</h6>

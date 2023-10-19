@@ -6,13 +6,6 @@ import logo from "../../assets/img/1-500h.png";
 import "./navbar.css";
 
 const Navbar = () => {
-  const {
-    toggleSubmenu,
-    openSidebar,
-    isSidebar,
-    closeSidebar,
-    isSubmenu,
-  } = useGlobalContext();
 
   return (
     // <header className="header py-2">
@@ -111,7 +104,7 @@ const Navbar = () => {
       </Link>
 
       <Link to="/login">
-        <button className="theme-button">
+        <button id="theme-button">
           Login / Signup
         </button>
       </Link>
