@@ -4,6 +4,7 @@ import bannerImg from "../../assets/img/Image.jpg";
 
 
 import { useGlobalContext } from "../../context/context";
+import Typewriter from 'typewriter-effect';
 
 import "./banner.css";
 import { Link } from "react-router-dom";
@@ -55,9 +56,17 @@ const Banner = () => {
 
         <div className="home-content">
           <div className="home-heading7">
-            <h1 className="home-heading7">
-              The Solution to your every placement doubt
+            <h1 className="slogan">
+              Your Path to<span style={{ color: "#2461FF" }}> <Typewriter
+                options={{
+                  strings: ["Career Confidence ", "Career Advancement", "Career Success"],
+                  delay : 75,
+                  autoStart: true,
+                  loop: true
+                }}
+              /></span>
             </h1>
+
             <text className="home-caption6">
               Placify is your gateway to discover career opportunities and gain insights from senior students at your college.
             </text>
@@ -66,7 +75,7 @@ const Banner = () => {
         <div>
           <img
             alt="image"
-            src=  {bannerImg}
+            src={bannerImg}
             className="home-image09"
           />
         </div>

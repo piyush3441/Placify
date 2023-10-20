@@ -6,6 +6,7 @@ import { CourseCard, Title } from "..";
 import { courses } from "../../assets/data/data";
 import "./courses.css";
 
+
 const Courses = () => {
   return (
     <section className="courses">
@@ -21,9 +22,9 @@ const Courses = () => {
         </div>
         <div className="row">
           <div className="col-12 text-center mt-5">
-            <Link to="/courses">
+            <Link to="/login">
               <button id="view-button">
-                view
+                View
               </button>
             </Link>
           </div>

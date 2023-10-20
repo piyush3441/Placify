@@ -42,6 +42,11 @@
   font-style: normal;
   font-weight: 600;
   line-height: 74px;
+
+  padding-bottom: 3rem;
+}
+.slogan{
+  font-weight: 600;
 }
 
 .home-caption6 {
@@ -50,6 +55,7 @@
   justify-content: center;
   max-width: 100%;
   line-height: 27px;
+  color: black !important;
 }
 
 .home-image08 {

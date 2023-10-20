@@ -11,7 +11,7 @@ const DetailCurriculum = ({ chapters }) => {
       aria-labelledby="course-curriculum-tab"
     >
       <div className="course-curriculum">
-        <h4 className="mb-4">Course Curriculum</h4>
+        <h4 className="mb-4">Interview Experience</h4>
         {/* accardion start */}
         <div className="accordion" id="accordion">
           {chapters.map((chapter) => (
@@ -34,27 +34,28 @@ const DetailCurriculum = ({ chapters }) => {
                       <span>{chapter.title}</span>
                     </div>
                     <div className="chapter-info me-2">
-                      <span className="mb-1 mb-md-0 fs-6 ">
+                      {/* <span className="mb-1 mb-md-0 fs-6 ">
                         {chapter.total_parts} lessons
                       </span>
                       <span className="theme-clr mx-1">\</span>
-                      <span>{chapter.total_time}</span>
+                      <span>{chapter.total_time}</span> */}
+                      <span>Btech 4th year</span>
                     </div>
                   </div>
                 </button>
               </h2>
               <div
-                id={`collapse-${chapter.id}`}
-                className={
-                  chapter.id === 1
-                    ? "accordion-collapse collapse show"
-                    : "accordion-collapse collapse "
-                }
-                aria-labelledby={`heading-${chapter.id}`}
-                data-bs-parent="#accordion"
+                // id={`collapse-${chapter.id}`}
+                // className={
+                //   chapter.id === 1
+                //     ? "accordion-collapse collapse show"
+                //     : "accordion-collapse collapse "
+                // }
+                // aria-labelledby={`heading-${chapter.id}`}
+                // data-bs-parent="#accordion"
               >
                 <div className="accordion-body">
-                  <ul>
+                  {/* <ul>
                     {chapter.parts.map((part, index) => (
                       <li key={index} className="my-2">
                         <div className="d-flex justify-content-between">
@@ -66,7 +67,45 @@ const DetailCurriculum = ({ chapters }) => {
                         </div>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
+
+                  Hughes Systique visited my college ABES Engineering College on 5th July.
+
+                  Round 1(Online Test): It was an online test on HackerRank Platform. It comprises of 3 sections:
+
+                  Aptitude - 20 MCQs
+                  Computer Concepts - 20 MCQs
+                  Programming - 2 questions
+                  The level of questions was Easy-Medium.
+
+                  Round 2(Technical Interview Round-1):
+
+                  Tell me about yourself
+                  Your favorite subjects: I answered OS, DBMS and DSA
+                  Operating Systems
+                  What is Deadlock
+                  Techniques to handle deadlock with examples
+                  DBMS
+                  What is Normalization and Denormalization
+                  Types of Normal forms
+                  Types of Languages(DDL, DML, DCL)
+                  DSA
+                  Types of Sorting, their procedure and complexities
+                  Implement queue using linked list(code)
+                  Types of Algorithms you have done
+                  C/C++
+                  Difference in call by value and call by reference using swap example
+                  Difference in malloc() and calloc()
+                  2-3 questions were based on projects I have done
+
+                  Round 3(Technical Interview Round-2 + HR):
+
+                  In my introduction I mentioned about PWAs. So a 15 minutes discussion on PWAs.
+                  Then a detailed 25-30 minutes discussion on all my projects like questions related to tech stack, database models etc.
+                  At last 1 HR question: Where do you see yourself after 3 years?
+                  Tips: You should know each and every word of your Resume. Whole interview will revolve around it only.
+
+
                 </div>
               </div>
             </div>

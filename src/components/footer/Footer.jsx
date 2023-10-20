@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 import "./footer.css";
 
 const Footer = () => {
@@ -48,8 +49,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <hr/>
-          
+          <hr />
+
           <div className="footer-contact col-12 py-3 ">
             <div className="row justify-content-between ">
               <div className="col-md-4 d-flex">
@@ -57,7 +58,7 @@ const Footer = () => {
                   <i className="fa fa-phone"></i>
                 </div>
                 <div className="contact-text">
-                  <h6>+91 94608-68085</h6>
+                  <h6>+91 94608-82379</h6>
                   <p>Mon-Fri 9am-6pm</p>
                 </div>
               </div>
@@ -70,18 +71,44 @@ const Footer = () => {
                   <p>Online support</p>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="contact-icon pe-3">
-                  <i className="fa fa-marker"  aria-hidden="true"></i>
-                </div>
-                <div className="contact-text">
-                  <h6>JKLU, Mahapura</h6>
-                  <p>Jaipur Rajasthan</p>
+              <div class="col-md-4 d-flex">
+                <div className="social-icon">
+                  <a href="#">
+                    <SocialIcon
+                      bgColor="black"
+                      url="https://twitter.com/PiyushS85128013"
+                      target="_twitter"
+                    />
+                  </a>
+
+                  <a href="#">
+                    <SocialIcon
+                      bgColor="black"
+                      url="https://www.instagram.com/jklu_jaipur/"
+                      target="instagram"
+                    />
+                  </a>
+
+
+                  <a href="#">
+                    <SocialIcon
+                      bgColor="black"
+                      url="https://www.facebook.com/JKLUJAIPUR/"
+                      target="facebook"
+                    />
+                  </a>
+                  <a href="#">
+                    <SocialIcon
+                      bgColor="black"
+                      url="https://www.linkedin.com/school/jk-lakshmipat-university-jaipur/"
+                      target="_linkedIn"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <hr/>
+          <hr />
           <div className="footer-copyright col-12 text-center py-3 ">
             <p>
               &copy;{new Date().getFullYear()} by
@@ -90,7 +117,7 @@ const Footer = () => {
             </p>
           </div>
 
-          
+
         </div>
       </div>
     </footer>

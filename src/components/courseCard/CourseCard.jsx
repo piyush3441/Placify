@@ -13,7 +13,7 @@ const CourseCard = ({ course_img, title}) => {
               $ {price}
             </span> */}
           </div>
-          <h3 className="course-title my-3 fs-5">{title}</h3>
+          <h3 className="title-landing-page my-3 fs-5">{title}</h3>
           {/* <div className="course-footer">
             <div className="footer-creator">
               <img src={creator_img} alt={creator} className="me-2" />

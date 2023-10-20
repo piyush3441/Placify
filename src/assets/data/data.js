@@ -63,77 +63,9 @@ export const course = {
   chapters: [
     {
       id: 1,
-      title: "Introduction",
+      title: "Piyush Solanki",
       total_parts: "14",
       total_time: "1hr 3min",
-      parts: [
-        { sub_title: "Introduction", time: "08:12" },
-        { sub_title: "What is JavaScript?", time: "03:24" },
-        { sub_title: "JavaScript in Action!", time: "12:21" },
-        { sub_title: "How JavaScript Is Executed", time: "09:33" },
-        { sub_title: "Dynamic vs Weakly Typed Languages", time: "10:15" },
-        {
-          sub_title: "JavaScript Executes In A Hosted Environment",
-          time: "15:12",
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Basics: Variables, Data Types,...",
-      total_parts: "39",
-      total_time: "3hr 16min",
-      parts: [
-        { sub_title: "Introduction", time: "08:12" },
-        { sub_title: "What is JavaScript?", time: "03:24" },
-        { sub_title: "JavaScript in Action!", time: "12:21" },
-        { sub_title: "How JavaScript Is Executed", time: "09:33" },
-        { sub_title: "Dynamic vs Weakly Typed Languages", time: "10:15" },
-        {
-          sub_title: "JavaScript Executes In A Hosted Environment",
-          time: "15:12",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Efficient Development ",
-      total_parts: "19",
-      total_time: "1hr 15min",
-      parts: [
-        { sub_title: "Introduction", time: "08:12" },
-        { sub_title: "What is JavaScript?", time: "03:24" },
-        { sub_title: "JavaScript in Action!", time: "12:21" },
-        { sub_title: "How JavaScript Is Executed", time: "09:33" },
-        { sub_title: "Dynamic vs Weakly Typed Languages", time: "10:15" },
-        {
-          sub_title: "JavaScript Executes In A Hosted Environment",
-          time: "15:12",
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "Working with Control Structures",
-      total_parts: "38",
-      total_time: "3hr 52min",
-      parts: [
-        { sub_title: "Introduction", time: "08:12" },
-        { sub_title: "What is JavaScript?", time: "03:24" },
-        { sub_title: "JavaScript in Action!", time: "12:21" },
-        { sub_title: "How JavaScript Is Executed", time: "09:33" },
-        { sub_title: "Dynamic vs Weakly Typed Languages", time: "10:15" },
-        {
-          sub_title: "JavaScript Executes In A Hosted Environment",
-          time: "15:12",
-        },
-      ],
-    },
-    {
-      id: 5,
-      title: "Behind the Scenes of JavaScript",
-      total_parts: "12",
-      total_time: "1hr 34min",
       parts: [
         { sub_title: "Introduction", time: "08:12" },
         { sub_title: "What is JavaScript?", time: "03:24" },
@@ -226,7 +158,7 @@ export const courses = [
   },
   {
     id: 2,
-    title: "Css For Beginners",
+    title: "HighWay 9 Networks",
     course_img: web2,
     creator: "john smilga",
     creator_img: person2,
@@ -236,7 +168,7 @@ export const courses = [
   },
   {
     id: 3,
-    title: "Javascript",
+    title: "Motadata",
     course_img: web3,
     creator: "jessica fleming",
     creator_img: person3,
@@ -246,7 +178,7 @@ export const courses = [
   },
   {
     id: 4,
-    title: "Php Advance",
+    title: "Sandvine",
     course_img: web4,
     creator: "wes bos",
     creator_img: person4,

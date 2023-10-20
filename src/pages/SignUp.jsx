@@ -1,18 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import {Breadcrumb} from '../components';
+import './signup.css'
 
 const SignUp = () => {
   return (
     <>
-    {/* <Breadcrumb current='SignUp' /> */}
-    <section className="signup">
-      <div className="container ">
+      <div className="container py-5">
         <div className="row justify-content-center">
           <div className="col-md-8 col-lg-7 col-xl-6">
             <div className="box">
-              <h2 className="text-center fs-4 mb-5 fw-bold">Create Your Account</h2>
+              <h2 className="text-center fs-4 mb-5 fw-bold">Sign Up</h2>
               <form>
                 <div className="form-group mb-3">
                   <input
@@ -35,7 +33,7 @@ const SignUp = () => {
                     className="form-control"
                   />
                 </div>
-                <button type="submit" className="theme-btn w-100 my-4">
+                <button type="submit" className="w-100 my-4" id = "signup-btn">
                   Sign Up
                 </button>
                 <p className="text-center">
@@ -46,7 +44,6 @@ const SignUp = () => {
           </div>
         </div>
       </div>
-    </section>
     </>
   );
 };

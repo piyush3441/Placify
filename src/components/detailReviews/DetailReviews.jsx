@@ -13,8 +13,8 @@ const DetailReviews = ({ coments, rating }) => {
       aria-labelledby="course-reviews-tab"
     >
       <div className="course-reviews">
-        <h4 className="mb-4">Students Feedback</h4>
-        <div className="reviews-star row align-items-center">
+        {/* <h4 className="mb-4">Students Feedback</h4> */}
+        {/* <div className="reviews-star row align-items-center">
           <div className="col-md-4">
             <div className="reviews-rating text-center">
               <div className="rating-average">
@@ -53,8 +53,10 @@ const DetailReviews = ({ coments, rating }) => {
               ))}
             </div>
           </div>
-        </div>
-        <div className="reviews-comment">
+        </div> */}
+
+        {/* comment for now only change it afterwards to get the reviews back */}
+        {/* <div className="reviews-comment">
           <h4 className="my-3">Reviews</h4>
           {coments.map((comment, index) => (
             <div className="comment  mb-3" key={index}>
@@ -78,7 +80,7 @@ const DetailReviews = ({ coments, rating }) => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -4,7 +4,6 @@ import {
   DetailCurriculum,
   DetailDescription,
   DetailHeader,
-  DetailInstructor,
   DetailReviews,
   DetailTabs,
 } from "../components";
@@ -49,7 +48,7 @@ const SingleCourse = () => {
                     {/* course-description start */}
                     {/* course-description end */}
                     {/* course-instructor start */}
-                    <DetailInstructor {...creator} />
+                    {/* <DetailInstructor {...creator} /> */}
                     {/* course-instructor end */}
                     {/* course-reviews start */}
                     <DetailReviews coments={coments} rating={rating} />
