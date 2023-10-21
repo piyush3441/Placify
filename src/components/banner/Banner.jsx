@@ -1,15 +1,10 @@
 import React from "react";
 
 import bannerImg from "../../assets/img/Image.jpg";
-
-
-import { useGlobalContext } from "../../context/context";
 import Typewriter from 'typewriter-effect';
-
+import Slider from "react-slick";
 import "./banner.css";
-import { Link } from "react-router-dom";
 const Banner = () => {
-  const { openSidebar } = useGlobalContext();
 
   return (
     <section className="banner d-flex align-items-center ">

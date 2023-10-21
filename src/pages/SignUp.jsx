@@ -33,11 +33,37 @@ const SignUp = () => {
                     className="form-control"
                   />
                 </div>
-                <button type="submit" className="w-100 my-4" id = "signup-btn">
+                <div className="form-group mb-3">
+                  <input
+                    type="password"
+                    placeholder="Confirm Password"
+                    className="form-control"
+                  />
+                </div>
+                <div className="form-group mb-3">
+                  <select
+                    type="number"
+                    placeholder="Batch"
+                    className="form-control"
+                  >
+                    <option selected>Select your Course</option>
+                    <option value="1">B.Tech</option>
+                    <option value="2">B.Des</option>
+                    <option value="3">BBA</option>
+                  </select>
+                </div>
+                <div className="form-group mb-3">
+                  <input
+                    type="number"
+                    placeholder="Batch"
+                    className="form-control"
+                  />
+                </div>
+                <button type="submit" className="w-100 my-4" id="signup-btn">
                   Sign Up
                 </button>
                 <p className="text-center">
-                Already have an account?<Link to="/login"> Log In</Link>
+                  Already have an account?<Link to="/login"> Log In</Link>
                 </p>
               </form>
             </div>

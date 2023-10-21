@@ -96,10 +96,10 @@ const Navbar = () => {
       <Link to="/" className="home-link">
         Home
       </Link>
-      <Link to="/" className="home-link" onClick={() => scrollToSection(TPO)}>
+      <Link to="/" className="home-link">
         TPO
       </Link>
-      <Link to="/" className="home-link" onClick={() => scrollToSection(contactUS)}>
+      <Link to="/" className="home-link" >
         Contact Us
       </Link>
 
